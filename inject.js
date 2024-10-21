@@ -11,7 +11,7 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
 }
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
-    content: "Username";
+    content: "⤥ Type 'viewer' here ⤦";
 }
 
 [class~=large]>div:nth-child(1)>a:nth-child(1) {
@@ -23,7 +23,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 }
 
 h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6ho]:before {
-    content: "TwistedFurby's Trello Knockoff" !important;
+    content: "TheSigmaArts' Kanban Board" !important;
 }
 
 h2[class~=ui][class~=inverted][class~=header][class~=Login_descriptionSubtitle__F9udW]:before,
@@ -34,6 +34,16 @@ h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     font-size: 12pt;
+}
+
+#app .Projects_add__D5XtL {
+    background: #333;
+    color: #fff;
+    fill: #fff;
+}
+
+button.Projects_card__s7ZIl {
+    border-color: #555
 }
 
 [class~=Header_logo__shVBB],
@@ -272,7 +282,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 }
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
-    content: "Password";
+    content: "⤥ Then, type 'Queue1234' here ⤦";
 }
 
 [class~=Login_cover__6nzRu] {
