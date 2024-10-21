@@ -23,7 +23,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 }
 
 h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6ho]:before {
-    content: "TheSigmaArts' Kanban Board" !important;
+    content: "TwistedFurby's Trello Knockoff" !important;
 }
 
 h2[class~=ui][class~=inverted][class~=header][class~=Login_descriptionSubtitle__F9udW]:before,
@@ -301,6 +301,10 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     font-size: .166666667in;
 }
 
+#app .User_backgroundMidnightBlue__F0nzM {
+    display: none
+}
+
 div[class~=ui][class~=segment][class~=active][class~=tab][class~=PreferencesPane_wrapper__OLqz6] {
     visibility: hidden !important;
 }
@@ -407,6 +411,10 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=PreferencesPane
     overflow: hidden !important;
 }
 
+#app a.item:nth-child(3) {
+    padding: 5px
+}
+
 [class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
     padding-right: 0pt;
 }
@@ -425,10 +433,6 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
 
 [class~=Header_itemHoverable__nf6CM]:hover {
     background: none !important;
-}
-
-[class~=Header_itemHoverable__nf6CM]:hover {
-    cursor: default !important;
 }
 
 [class~=ui][class~=input] {
