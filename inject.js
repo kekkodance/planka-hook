@@ -18,6 +18,16 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     position: relative;
 }
 
+#app .Projects_add__D5XtL {
+    background: #333;
+    color: #fff;
+    fill: #fff;
+}
+
+button.Projects_card__s7ZIl {
+    border-color: #555
+}
+
 [class~=large]>div:nth-child(1)>a:nth-child(1) {
     position: absolute !important;
 }
