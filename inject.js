@@ -3,7 +3,6 @@ var style = document.createElement('style');
 
 // add the CSS as a string
 style.innerHTML = `
-
 [class~=large]>div:nth-child(1)>a:nth-child(1),
 div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wrapper__pWfwV],
 .fluid.button.ActionsStep_button__2Cph7,
@@ -12,7 +11,7 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
 }
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
-    content: "⤥ Type \'viewer\' here ⤦";
+    content: "Username";
 }
 
 [class~=large]>div:nth-child(1)>a:nth-child(1) {
@@ -24,7 +23,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 }
 
 h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6ho]:before {
-    content: "TheSigmaArts\' Kanban Board" !important;
+    content: "TheSigmaArts' Kanban Board" !important;
 }
 
 h2[class~=ui][class~=inverted][class~=header][class~=Login_descriptionSubtitle__F9udW]:before,
@@ -273,7 +272,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 }
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
-    content: "⤥ Then, type \'Queue1234\' here ⤦";
+    content: "Password";
 }
 
 [class~=Login_cover__6nzRu] {
