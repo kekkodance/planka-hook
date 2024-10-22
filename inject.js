@@ -10,6 +10,10 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
     display: none !important;
 }
 
+#app .BoardActions_actions__jF5z\+ {
+  gap: 0px
+}
+
 .Item_author__Gb7ek {
     visibility: hidden;
     position: relative;
