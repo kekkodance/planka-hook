@@ -14,6 +14,11 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
   gap: 0px
 }
 
+#app button.Projects_card__s7ZIl:hover .Projects_addTitle__tXhB4 {
+  transform: scale(1.05); /* Slight hover effect without shifting */
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
 .UserItem_menuItemText__EuvLW {
     visibility: hidden;
     position: relative
