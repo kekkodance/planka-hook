@@ -14,6 +14,23 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
   gap: 0px
 }
 
+.UserItem_menuItemText__EuvLW {
+    visibility: hidden;
+    position: relative
+}
+
+.UserItem_menuItemText__EuvLW:before {
+  visibility: visible
+}
+
+.UserItem_menuItemText__EuvLW::after {
+    content: "TwistedFurby";
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .Item_author__Gb7ek {
     visibility: hidden;
     position: relative;
