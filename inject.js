@@ -10,6 +10,23 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
     display: none !important;
 }
 
+.Item_author__Gb7ek {
+    visibility: hidden;
+    position: relative;
+}
+
+.Item_author__Gb7ek::after {
+    content: "TwistedFurby";
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Item_text__ASgDb {
+  position: relative;
+  left: -74px
+}
+
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     content: "Username";
 }
