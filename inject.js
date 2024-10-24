@@ -3,6 +3,103 @@ var style = document.createElement('style');
 
 // add the CSS as a string
 style.innerHTML = `
+
+//DARK THEME SCHEDE START
+
+#app .Stopwatch_wrapperHoverable__tpGPq {
+  background: #3B3B3B;
+  color: #fff;
+}
+#app .Stopwatch_wrapperTiny__NWplT {
+  background: #1b1b1B;
+  color: #ffffffb8;
+}
+#app .Stopwatch_wrapperHoverable__tpGPq:hover {
+  background: #3B3B3B;
+  color: #fff;
+}
+#app .Stopwatch_wrapperActive__NH52K.Stopwatch_wrapperHoverable__tpGPq {
+  background: #16ab39;
+  color: #fff;
+}
+
+#app .Card_actionsButton__YgN0y {
+  color: #ffffffb8;
+  fill: #ffffffb8;
+}
+#app .Card_actionsButton__YgN0y:hover {
+  color: #fff;
+  fill: #fff;
+  background-color: #303030;
+}
+
+#app .DueDate_wrapper__-uPEo {
+  background: #1b1b1b;
+  color: #ffffffb8;
+}
+
+#app .DueDate_wrapper__-uPEo:hover {
+  background: #3B3B3B;
+  color: #fff;
+}
+
+#app .DueDate_wrapperOverdue__TVlzg {
+  background: #db2828;
+  color: #fff;
+}
+
+#app .List_outerWrapper__B4Idr {
+  background-color: #1b1b1b;
+}
+#app .List_headerName__ztYJO {
+  color: #ffffffb8;
+  fill: #ffffffb8;
+}
+#app .List_addCardButton__8vjKW {
+  background-color: #1b1b1b;
+  color: #ffffffb8;
+  fill: #ffffffb8;
+  transition: background 85ms ease-in,opacity 40ms ease-in,border-color 85ms ease-in;
+  border: none;
+}
+#app .List_addCardButton__8vjKW:hover {
+  background: #00000052;
+  color: #ffffffb8;
+  fill: #fff;
+  transition: fill .3s ease-in-out;
+}
+#app .List_headerButton__JFVwp {
+  color: #ffffffb8;
+  fill: #ffffffb8;
+}
+#app .List_headerButton__JFVwp:hover{
+  color: #fff;
+  fill: #fff;
+}
+
+#app .Card_card__zQfcO {
+  background-color: #303030;
+  box-shadow: 0 1px 0 #1a1a1a;
+}
+
+#app .Card_card__zQfcO:hover {
+  background-color: #2B2B2B;
+  transition: background-color .2s ease-in-out;
+}
+#app .Card_name__vpWb5 {
+  color: #ffffffb8;
+}
+#app .Tasks_task__hyB6K {
+  color: #aaa;
+}
+
+//DARK THEME SCHEDE END
+
+
+#app .BoardActions_actions__jF5z\+ {
+  gap: 0px
+}
+
 [class~=large]>div:nth-child(1)>a:nth-child(1),
 div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wrapper__pWfwV],
 .fluid.button.ActionsStep_button__2Cph7,
