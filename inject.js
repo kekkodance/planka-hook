@@ -595,11 +595,17 @@ document.getElementsByTagName('head')[0].appendChild(style);
 
 document.addEventListener("DOMContentLoaded", function() {
     // Change the document title
-    document.title = "hello world";
+    document.title = "TwistedFurby's Trello Knockoff";
 
     // Change the link text if it exists
     const logoLink = document.querySelector('a.Header_logo__shVBB.Header_title__l+wMf');
     if (logoLink) {
         logoLink.innerText = 'TwistedFurby';
     }
+});
+
+document.querySelectorAll("a").forEach(a => {
+  if (a.textContent.includes("About Planka")) {
+    a.style.display = "none";
+  }
 });
