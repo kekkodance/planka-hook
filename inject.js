@@ -3,11 +3,6 @@ var style = document.createElement('style');
 
 // add the CSS as a string
 style.innerHTML = `
-
-//DARK THEME SCHEDE START
-
-
-
 //DARK THEME SCHEDE START
 
 #app .Stopwatch_wrapperHoverable__tpGPq {
@@ -107,6 +102,13 @@ style.innerHTML = `
 
 #app .BoardActions_actions__jF5z+ {
   gap: 0px
+}
+
+[class~=Login_formTitle__xnYyM] {
+    background-image:url("https://i.imgur.com/mzbBlcq.png");
+    background-size: 210px;
+    position: relative;
+    left: -25px
 }
 
 #app button.Projects_card__s7ZIl:hover .Projects_addTitle__tXhB4 {
@@ -249,8 +251,6 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     font-weight: 700;
 }
 
-
-
 [class~=Login_formTitle__xnYyM] {
     padding-top: 1.5625in !important;
 }
@@ -270,8 +270,6 @@ html body#app div#root div[class~=Login_wrapper__zYzT6][class~=Login_fullHeight_
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     line-height: .208333333in;
 }
-
-
 
 [class~=Header_logo__shVBB]:after {
     content: "TwistedFurby";
@@ -293,7 +291,6 @@ input::selection {
     white-space: nowrap;
 }
 
-
 textarea::selection {
     background-color: #f42160;
 }
@@ -302,9 +299,8 @@ textarea::selection {
     overflow: hidden;
 }
 
-
 html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div form.ui.large.form div.field button.ui.large.icon.primary.right.floated.labeled.button {
-    background-color: #fe4678 !important;
+    background-color: #f2b84c !important;
 }
 
 
@@ -354,7 +350,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
 }
 
 [class~=Login_cover__6nzRu] {
-    background: url("https://cdn.jsdelivr.net/gh/kekkodance/code-for-sigma@main/1671785941.png") !important;
+    background: url("https://furarchiver.net/File/View?artist=twistedfurby&filename=1701454459.twistedfurby_aida_and_maria_stink.png") !important;
 }
 
 h1.ui.inverted.header.Login_descriptionTitle__db6ho,
