@@ -210,7 +210,10 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     font-size: 12pt;
 }
 
-
+[class~=Header_logo__shVBB] {
+    visibility: hidden;
+    position: relative;
+}
 
 [class~=large]>div:nth-child(1)>a:nth-child(1) {
     left: 6pt;
