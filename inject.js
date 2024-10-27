@@ -3,12 +3,231 @@ var style = document.createElement('style');
 
 // add the CSS as a string
 style.innerHTML = `
-//DARK THEME SCHEDE START
+/* DARK THEME MODAL START */
 
-#app .Stopwatch_wrapperHoverable__tpGPq {
-  background: #3B3B3B;
-  color: #fff;
+#app [class*="CardModal_grid"] {
+  background-color: #1b1b1b !important;
 }
+#app .NameField_field__VNSXF, 
+#app .CardModal_moduleIcon__KX6oY,
+#app .CardModal_moduleHeader__b0c7q,
+#app .CardModal_descriptionText__r57zS,
+#app .Item_task__JuSWC,
+#app .Item_name__zv0Mf,
+#app .Activities_moduleIcon__DMJhR, 
+#app .Activities_moduleHeader__0qBt0,
+.ui.comments .comment .actions button:hover,
+#app .Activities_toggleButton__VpLFR:hover,
+#app .ItemComment_author__J14e1,
+#app .Item_author__Gb7ek,
+#app .Item_option__5o2ZW:hover {
+    color: #ffffffb8
+}
+
+#app .Item_taskCompleted__hjVLl,
+#app .Tasks_taskButtonText__ZuWQF,
+#app .Item_date__LKNlH,
+#app .Item_extension__KY2iU,
+#app .Item_option__5o2ZW,
+.ui.comments .comment .actions button,
+#app .Activities_toggleButton__VpLFR,
+#app .ItemComment_date__azm7i,
+#app .Item_text__ASgDb,
+#app .CardModal_descriptionButton__-zAfk{
+    color: #aaa
+}
+
+#app .Tasks_taskButtonText__ZuWQF:hover, 
+#app .CardModal_descriptionButton__-zAfk:hover {
+    color: #ffffffb8
+}
+#app .Tasks_taskButton__92Nn1:hover,
+#app .Item_textEditable__U\+Pwe:hover,
+#app .CardModal_descriptionButton__-zAfk:hover {
+    background-color: #303030
+}
+
+
+#app .DueDate_wrapperMedium__gt9xE {
+    background-color: #0F0F0F !important;
+}
+
+#app .CardModal_descriptionButtonText__EXASW {
+    visibility: hidden;
+    position: relative;
+    white-space: nowrap; 
+}
+
+#app .CardModal_descriptionButtonText__EXASW:after {
+    content: "Add a description...";
+    visibility: visible;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    white-space: nowrap; 
+}
+
+#app .Activities_toggleButton__VpLFR {
+    text-decoration: none
+}
+
+#app .Activities_toggleButton__VpLFR:hover {
+    text-decoration: underline
+}
+
+
+#app .Stopwatch_wrapperMedium__5ouE8 {
+    background-color: #0F0F0F;
+    color: #ffffffb8;
+}
+
+#app .Item_thumbnail__q2vqp {
+    background-color: #202020
+}
+
+
+#app .Tasks_taskButton__92Nn1 {
+    width: 23%;
+    min-height: 40px
+}
+
+#app .CardModal_descriptionButton__-zAfk {
+    width: 25%;
+    min-height: 40px
+}
+
+#app .Add_field__bkJN2 {
+    background-color: #121212;
+    color: #ffffffb8;
+}
+
+html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.Stopwatch_wrapper__1OXmA.Stopwatch_wrapperMedium__5ouE8.Stopwatch_wrapperHoverable__tpGPq:hover {
+    background-color: #0F0F0F;
+    color: #fff;
+}
+
+.CodeMirror {
+    background-color: #121212;
+    color: #ffffffd8;
+}
+.CodeMirror-cursor {
+    border-left: 1px solid #ffffffd8;
+}
+
+.CodeMirror-selectedtext {
+    color: #000
+}
+
+.editor-toolbar {
+    border-color: #aaa;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0
+}
+
+.EasyMDEContainer .CodeMirror {
+    border-color: #aaa;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0
+}
+
+#app .DescriptionEdit_field__UOI7T,
+#app .CommentAdd_field__krf6C {
+    background-color: #121212;
+    color: #fff;
+    fill: #fff;
+}
+
+#app .CardModal_actionButton__1eB1l {
+    background-color: #121212;
+    color: #aaa;
+    fill: #fff;
+}
+
+#app .CardModal_actionIcon__dnocs {
+    color: #fff
+}
+
+#app .CardModal_actionButton__1eB1l:hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+#app .ItemComment_text__PM3Ce {
+    background-color: #303030;
+    color: #fff;
+    fill: #fff;
+}
+
+
+.editor-toolbar button {
+    color: #ffffffb8
+}
+
+.editor-toolbar button:hover {
+    color: #fff;
+    background-color: #121212;
+    border: 0px
+}
+
+#app .CardModal_dueDate__Y3NdU,
+.ui.button {
+  color: #ffffffb8;
+  fill: #ffffffb8;
+}
+#app .CardModal_dueDate__Y3NdU:hover,
+.ui.button:hover {
+  color: #fff;
+  fill: #fff;
+}
+
+.ui.modal > .close {
+  color: #ffffffe8;
+  fill: #ffffffe8;
+}
+
+.ui.modal > .close:hover {
+  color: #fff;
+  fill: #fff;
+  background-color: #1b1b1b
+}
+
+.ui.checkbox .box::after, .ui.checkbox .box::before, .ui.checkbox label::after, .ui.checkbox label::before {
+    background-color: #1b1b1b;
+}
+
+.ui.checkbox input:checked ~ .box::after, .ui.checkbox input:checked ~ label::after {
+  color: #fff;
+  background-color: #1b1b1b;
+  border: 0.15rem solid #aaa;
+  border-radius: .15rem;
+  position: relative;
+}
+
+.ui.checkbox input:checked ~ .box:hover::after, .ui.checkbox input:checked ~ label:hover::after {
+  border-color: #ffffffb8
+}
+
+
+.ui.checkbox .box::before, .ui.checkbox label::before {
+  background-color: #1b1b1b !important;
+  border: 0.15rem solid #aaa;
+  border-radius: .15rem;
+}
+
+.ui.checkbox .box:hover::before, .ui.checkbox label:hover::before {
+  background-color: #1b1b1b !important;
+  border: 0.15rem solid #ffffffb8;
+  border-radius: .15rem;
+}
+
+
+/* DARK THEME MODAL END */
+
+
+/* DARK THEME SCHEDE START */
+
 #app .Stopwatch_wrapperTiny__NWplT {
   background: #1b1b1B;
   color: #ffffffb8;
@@ -92,7 +311,7 @@ style.innerHTML = `
   color: #aaa;
 }
 
-//DARK THEME SCHEDE END
+/* DARK THEME SCHEDE END */
 
 
 #app .BoardActions_actions__jF5z+ {
