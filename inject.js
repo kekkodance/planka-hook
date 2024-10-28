@@ -3,10 +3,83 @@ var style = document.createElement('style');
 
 // add the CSS as a string
 style.innerHTML = `
+/* DARK THEME POPUPS START */
+
+.ui.popup {
+    background-color: #1b1b1b;
+    color: #ffffffb8;
+}
+.ui.menu .item {
+    color: #ffffffb8
+}
+.ActionsStep_menuItem__3UZGJ:hover {
+    background: #303030 !important;
+    color: #ffffffb8 !important;
+}
+
+
+.ui.selection.dropdown,
+.ui.selection.visible.dropdown > .text:not(.default) {
+    background-color: #121212;
+    color: #ffffffb8;
+}
+
+.ui.dropdown .menu,
+.ui.dropdown .menu > .item {
+    background-color: #121212;
+    color: #ffffffb8;
+}
+
+.ui.dropdown .menu .selected.item {
+    color: #fff;
+}
+
+.ui.dropdown .menu > .item:hover {
+    background: #303030;
+    color: #ffffffb8
+}
+
+.ui.selection.dropdown .menu > .item {
+    border-color: #303030
+}
+.PopupHeader_wrapper__GP2XO {
+    height: 44px;
+}
+
+.PopupHeader_content__lu4hU {
+    padding: 12px 28px 6px;  
+}
+#app .StopwatchEditStep_iconButton__y1Ft8:hover {
+    background-color: #1b1b1b
+}
+#app .StopwatchEditStep_text__7swbJ,
+#app .UserAddStep_text__12EnT,
+#app .CardMoveStep_text__AwHbK {
+    color: #aaa
+}
+
+.ui.toggle.checkbox label,
+#app .ui.toggle.checkbox input:checked ~ label {
+    color: #aaa !important;
+}
+
+#app .StopwatchEditStep_deleteButton__6KjeG {
+    box-shadow: none
+}
+
+
+#app .Item_menuItem__wTAgE:hover,
+.ui.secondary.menu a.item:hover {
+    background: #303030 !important;
+    color: #ffffffb8 !important;
+}
+
+/* DARK THEME POPUPS END */
+
 /* DARK THEME MODAL START */
 
 #app [class*="CardModal_grid"] {
-  background-color: #1b1b1b !important;
+    background-color: #1b1b1b !important;
 }
 #app .NameField_field__VNSXF, 
 #app .CardModal_moduleIcon__KX6oY,
@@ -33,7 +106,8 @@ style.innerHTML = `
 #app .Activities_toggleButton__VpLFR,
 #app .ItemComment_date__azm7i,
 #app .Item_text__ASgDb,
-#app .CardModal_descriptionButton__-zAfk{
+#app .CardModal_descriptionButton__-zAfk,
+#app .CardModal_text__SCB7P {
     color: #aaa
 }
 
@@ -42,7 +116,7 @@ style.innerHTML = `
     color: #ffffffb8
 }
 #app .Tasks_taskButton__92Nn1:hover,
-#app .Item_textEditable__U\+Pwe:hover,
+#app .Item_textEditable__U+Pwe:hover,
 #app .CardModal_descriptionButton__-zAfk:hover {
     background-color: #303030
 }
@@ -133,11 +207,26 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
 }
 
 #app .DescriptionEdit_field__UOI7T,
-#app .CommentAdd_field__krf6C {
+#app .CommentAdd_field__krf6C,
+#app .NameEdit_fieldWrapper__5BEQD,
+#app .NameEdit_fieldWrapper__5BEQD textarea,
+#app .CardAdd_fieldWrapper__zxVml,
+#app .CardAdd_fieldWrapper__zxVml textarea {
     background-color: #121212;
     color: #fff;
     fill: #fff;
 }
+
+#app .ListAdd_wrapper__01Vmd {
+    background-color: #1b1b1b
+}
+
+#app .NameEdit_fieldWrapper__5BEQD,
+#app .CardAdd_fieldWrapper__zxVml,
+#app .ListAdd_field__NxzUm {
+    box-shadow: 0 1px 0 #1a1a1a;
+}
+    
 
 #app .CardModal_actionButton__1eB1l {
     background-color: #121212;
@@ -335,16 +424,16 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.UserItem_menuItemText__EuvLW {
+button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2) {
     visibility: hidden;
     position: relative
 }
 
-.UserItem_menuItemText__EuvLW:before {
+button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2):before {
   visibility: visible
 }
 
-.UserItem_menuItemText__EuvLW::after {
+button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2)::after {
     content: "TwistedFurby";
     visibility: visible;
     position: absolute;
@@ -357,18 +446,26 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
     position: relative;
 }
 
-.ItemComment_author__J14e1 {
+.ItemComment_author__J14e1,
+a.Item_menuItem__wTAgE:nth-child(2) > div:nth-child(2) {
     visibility: hidden;
     position: relative;
 }
 
-.ItemComment_author__J14e1:after {
+.ItemComment_author__J14e1:after,
+a.Item_menuItem__wTAgE:nth-child(2) > div:nth-child(2):after {
     content: "TwistedFurby";
     visibility: visible;
     position: absolute;
     top: 0;
     left: 0;
 }
+
+.segment > button:nth-child(1) {
+    display: block !important;
+}
+
+/* PFP ON ACCOUNT PAGE ^^^ */
 
 .ItemComment_date__azm7i:before {
     content: "· ";
@@ -392,6 +489,7 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   position: relative;
   left: -74px
 }
+
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     content: "Username";
@@ -464,6 +562,9 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
     transition: background .3s ease;
 }
 
+div.icon > input:nth-child(1) {
+    background-color: #0e0e0e !important;
+}
 
 [class~=Header_logo__shVBB]:after {
     top: 0;
@@ -503,6 +604,10 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
 
 input::selection {
     color: #fff;
+}
+
+.ui.dimmer {
+    background-color: #000000d9 !important
 }
 
 [class~=Login_formTitle__xnYyM] {
@@ -593,13 +698,11 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     font-size: .166666667in;
 }
 
-#app .User_backgroundMidnightBlue__F0nzM {
-    display: none
-}
+
 
 
 input {
-    background: #191919 !important;
+    background: #121212 !important;
 }
 
 
@@ -661,24 +764,19 @@ div.Board_lists__gV2Uz {
     gap: 20px;
 }
 
+.User_button__CgzK9,
+span.User_wrapper__hRMaA:nth-child(2) {
+    display: none !important;
+}
+
 div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     position: relative;
 }
 
-html body#app.dimmable.dimmed div.ui.top.aligned.page.modals.dimmer.transition.visible.active div.ui.small.modal.transition.visible.active div.content div div.ui.segment.active.tab.AccountPane_wrapper__pWfwV form.ui.form {
-    display: none;
-}
-
-html body#app.dimmable.dimmed div.ui.top.aligned.page.modals.dimmer.transition.visible.active div.ui.small.modal.transition.visible.active div.content div div.ui.segment.active.tab.AccountPane_wrapper__pWfwV button.User_button__CgzK9 {
-    display: none;
-}
-
-html body#app.dimmable.dimmed div.ui.top.aligned.page.modals.dimmer.transition.visible.active div.ui.small.modal.transition.visible.active div.content div div.ui.segment.active.tab.AccountPane_wrapper__pWfwV br {
-    display: none;
-}
-
-#app a.item:nth-child(3) {
-    padding: 5px
+#app .Header_userName__r-MQo {
+    padding: 0;
+    margin-left: -13px;
+    margin-right: -2px
 }
 
 [class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
