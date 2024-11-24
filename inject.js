@@ -6,7 +6,7 @@ style.innerHTML = `
 /* DARK THEME POPUPS START */
 
 .ui.popup {
-    background-color: #1b1b1b;
+    background-color: #121212;
     color: #ffffffb8;
 }
 .ui.menu .item {
@@ -17,6 +17,9 @@ style.innerHTML = `
     color: #ffffffb8 !important;
 }
 
+div.ui.bottom.left.wide.basic.popup.transition.visible.Popup_wrapper__gjV0g {
+    background-color: #121212 !important;
+}
 
 .ui.selection.dropdown,
 .ui.selection.visible.dropdown > .text:not(.default) {
@@ -34,6 +37,18 @@ style.innerHTML = `
     color: #fff;
 }
 
+button.ui.button.EditStep_deleteButton__NTHkI,
+button.ui.button.EditStep_deleteButton__a03v5 {
+    color: #fff;
+    background-color: #cf513d;
+    text-shadow: none;
+    box-shadow: 0 1px 0 #ae2e2e !important;
+}
+button.ui.button.EditStep_deleteButton__NTHkI:hover,
+button.ui.button.EditStep_deleteButton__a03v5:hover {
+    background-color: #b04632;
+}
+
 .ui.dropdown .menu > .item:hover {
     background: #303030;
     color: #ffffffb8
@@ -49,9 +64,29 @@ style.innerHTML = `
 .PopupHeader_content__lu4hU {
     padding: 12px 28px 6px;  
 }
-#app .StopwatchEditStep_iconButton__y1Ft8:hover {
+#app .StopwatchEditStep_iconButton__y1Ft8:hover,
+#app .LabelsStep_addButton__vxcSF:hover {
     background-color: #1b1b1b
 }
+
+#app .LabelsStep_addButton__vxcSF {
+    color: #aaa
+}
+
+#app .StopwatchEditStep_iconButton__y1Ft8 {
+    color: #aaa
+}
+
+#app .DeleteStep_content__o0ybn {
+    color: #ffffffb8;
+    padding-bottom: 10px;
+}
+
+#app .StopwatchEditStep_iconButton__y1Ft8 {
+    color: #ffffffb8
+}
+
+
 #app .StopwatchEditStep_text__7swbJ,
 #app .UserAddStep_text__12EnT,
 #app .CardMoveStep_text__AwHbK {
@@ -64,9 +99,16 @@ style.innerHTML = `
 }
 
 #app .StopwatchEditStep_deleteButton__6KjeG {
-    box-shadow: none
+    box-shadow: 0 1px 0 #ae2e2e;
 }
 
+.ui.selection.dropdown:hover {
+  border-color: rgba(170, 170, 170, 0.6);
+}
+
+.ui.selection.dropdown{
+  border-color: rgba(170, 170, 170, 0.3);
+}
 
 #app .Item_menuItem__wTAgE:hover,
 .ui.secondary.menu a.item:hover {
@@ -107,7 +149,9 @@ style.innerHTML = `
 #app .ItemComment_date__azm7i,
 #app .Item_text__ASgDb,
 #app .CardModal_descriptionButton__-zAfk,
-#app .CardModal_text__SCB7P {
+#app .CardModal_text__SCB7P,
+#app .Editor_text__zolDF,
+#app .EditStep_text__VO1tP {
     color: #aaa
 }
 
@@ -121,6 +165,9 @@ style.innerHTML = `
     background-color: #303030
 }
 
+#app .Item_date__qxgsp {
+    color: #888
+}
 
 #app .DueDate_wrapperMedium__gt9xE {
     background-color: #0F0F0F !important;
@@ -276,7 +323,8 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   fill: #ffffffe8;
 }
 
-.ui.modal > .close:hover {
+.ui.modal > .close:hover,
+#app .Item_editButton__fmRvU:hover {
   color: #fff;
   fill: #fff;
   background-color: #1b1b1b
@@ -330,6 +378,10 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   color: #fff;
 }
 
+#app .DueDateEditStep_deleteButton__WfBC7 {
+  box-shadow: 0 1px 0 #ae2e2e;
+}
+
 #app .Card_actionsButton__YgN0y {
   color: #ffffffb8;
   fill: #ffffffb8;
@@ -379,7 +431,7 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   color: #ffffffb8;
   fill: #ffffffb8;
 }
-#app .List_headerButton__JFVwp:hover{
+#app .List_headerButton__JFVwp:hover {
   color: #fff;
   fill: #fff;
 }
@@ -402,6 +454,60 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
 
 /* DARK THEME SCHEDE END */
 
+/* DATEPICKER DARK START */
+
+#app .react-datepicker__header {
+    background-color: #1b1b1b;
+}
+
+#app .react-datepicker__current-month {
+    color: #aaa
+}
+
+#app .react-datepicker__day--outside-month {
+    background-color: #2b2b2b !important;
+    color: #2b2b2b !important;
+}
+
+#app .react-datepicker__day {
+    background-color: #1a1a1a;
+    color: #aaa;
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+#app .react-datepicker__week {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+div.DueDateEditStep_fieldBox__vdgwg > div > input {
+    background-color: #1a1a1a !important;
+}
+
+#app .DueDateEditStep_text__1AGGK {
+    color: #aaa
+}
+
+#app .react-datepicker__day--selected {
+    background: #216ba5;
+    color: #ffffffb8
+}
+
+.react-datepicker {
+    background-color: #222222
+}
+#app .react-datepicker__day-names {
+    background-color: #222222;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 0px;
+    border-left: 0px;
+    color: #ffffffb8 !important;
+}
+
+#app .react-datepicker__day-name {
+    color: #ffffffb8 !important;
+}
+    
+/* DATEPICKER DARK END */
 
 #app .BoardActions_actions__jF5z+ {
   gap: 0px
@@ -424,16 +530,16 @@ html body#app .CardModal_attachment__ogpcE button.Stopwatch_button__3iHGS span.S
   transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2) {
+button.UserItem_menuItem__+CUNh:nth-child(2) > div:nth-child(2) {
     visibility: hidden;
     position: relative
 }
 
-button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2):before {
+button.UserItem_menuItem__+CUNh:nth-child(2) > div:nth-child(2):before {
   visibility: visible
 }
 
-button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2)::after {
+button.UserItem_menuItem__+CUNh:nth-child(2) > div:nth-child(2)::after {
     content: "TwistedFurby";
     visibility: visible;
     position: absolute;
@@ -450,6 +556,19 @@ button.UserItem_menuItem__\+CUNh:nth-child(2) > div:nth-child(2)::after {
 a.Item_menuItem__wTAgE:nth-child(2) > div:nth-child(2) {
     visibility: hidden;
     position: relative;
+}
+
+#app .Item_menuItemTextActive__rkkjJ::before {
+    visibility: visible !important;
+    color: #aaa;
+}
+
+#app .Item_menuItemTextActive__rkkjJ:hover::before {
+    color: #fff !important;
+}
+
+.Item_menuItemTextActive__rkkjJ {
+    color: #ffffffb8
 }
 
 .ItemComment_author__J14e1:after,
@@ -702,7 +821,7 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
 
 
 input {
-    background: #121212 !important;
+    background: #1a1a1a !important;
 }
 
 
@@ -766,6 +885,9 @@ div.Board_lists__gV2Uz {
 
 .User_button__CgzK9,
 span.User_wrapper__hRMaA:nth-child(2) {
+    display: none !important;
+}
+div.CardModal_attachments__Hio2f:nth-child(1) {
     display: none !important;
 }
 
