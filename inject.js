@@ -628,10 +628,6 @@ button.Projects_card__s7ZIl {
     border-color: #555
 }
 
-[class~=large]>div:nth-child(1)>a:nth-child(1) {
-    position: absolute !important;
-}
-
 h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6ho]:before {
     content: "TwistedFurby's Trello Knockoff" !important;
 }
