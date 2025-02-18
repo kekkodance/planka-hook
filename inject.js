@@ -651,16 +651,8 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(1):before {
     position: relative;
 }
 
-[class~=large]>div:nth-child(1)>a:nth-child(1) {
-    left: 6pt;
-}
-
 html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div form.ui.large.form div.field button.ui.large.icon.primary.right.floated.labeled.button:hover {
     background-color: #f42160 !important;
-}
-
-[class~=large]>div:nth-child(1)>a:nth-child(1) {
-    left: -104.15625in !important;
 }
 
 #app,
@@ -836,31 +828,17 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     font-weight: 700;
 }
 
-
-
 [class~=Header_logo__shVBB]:after {
     font-size: clamp(16px, 3vw, 20px);
 }
-
-
 
 div.Board_lists__gV2Uz {
     flex-wrap: wrap;
 }
 
-
-
-[class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
-    padding-left: 0pt;
-}
-
-
-
 textarea::selection {
     color: #fff;
 }
-
-
 
 [class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
     padding-bottom: 0pt;
@@ -905,16 +883,8 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     padding-right: 0pt;
 }
 
-[class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
-    padding-top: 0pt;
-}
-
 div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     bottom: 3pt;
-}
-
-[class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
-    bottom: .005208333in;
 }
 
 [class~=Header_itemHoverable__nf6CM]:hover {
