@@ -836,10 +836,6 @@ textarea::selection {
     color: #fff;
 }
 
-[class~=Header_item__OOEY7][class~=Header_itemHoverable__nf6CM]:nth-child(1) {
-    padding-bottom: 0pt;
-}
-
 
 div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
     line-height: 1.25pc;
