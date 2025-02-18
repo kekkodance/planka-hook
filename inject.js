@@ -681,7 +681,7 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
     transition: background .3s ease;
 }
 
-div.icon > input:nth-child(1) {
+div.icon > input:nth-child(1), div.Login_inputWrapper__SbI14:nth-child(1) > div:nth-child(2) > input:nth-child(1) {
     background-color: #0e0e0e !important;
 }
 
