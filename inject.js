@@ -198,6 +198,9 @@ button.ui.button.EditStep_deleteButton__a03v5:hover {
     text-decoration: underline
 }
 
+#app .Header_userName__r-MQo{
+    display: block !important;
+}
 
 #app .Stopwatch_wrapperMedium__5ouE8 {
     background-color: #0F0F0F;
