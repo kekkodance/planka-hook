@@ -151,12 +151,14 @@ button.ui.button.EditStep_deleteButton__a03v5:hover {
 #app .CardModal_descriptionButton__-zAfk,
 #app .CardModal_text__SCB7P,
 #app .Editor_text__zolDF,
-#app .EditStep_text__VO1tP {
+#app .EditStep_text__VO1tP,
+#app .Card_attachmentContent__9uvnk {
     color: #aaa
 }
 
 #app .Tasks_taskButtonText__ZuWQF:hover, 
-#app .CardModal_descriptionButton__-zAfk:hover {
+#app .CardModal_descriptionButton__-zAfk:hover,
+#app .Card_attachmentContent__9uvnk:hover {
     color: #ffffffb8
 }
 #app .Tasks_taskButton__92Nn1:hover,
