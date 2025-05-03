@@ -702,6 +702,7 @@ button.Projects_card__s7ZIl {
 
 h1[class~=ui][class~=inverted][class~=header][class~=Login_descriptionTitle__db6ho]:before {
     content: "TwistedFurby's Trello Knockoff" !important;
+    color: #fff !important;
 }
 
 h2[class~=ui][class~=inverted][class~=header][class~=Login_descriptionSubtitle__F9udW]:before,
