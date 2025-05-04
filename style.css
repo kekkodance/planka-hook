@@ -952,9 +952,9 @@ div[class~=Login_inputWrapper__SbI14]:nth-child(2):before {
 }
 
 #app .Header_userName__r-MQo {
-    padding: 0;
-    margin-left: -17px;
-    margin-right: 32px;
+  padding: 0;
+  margin-left: 0px;
+  margin-right: 75px;
 }
 
 #app .Header_userName__r-MQo:hover:after {
