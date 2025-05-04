@@ -146,7 +146,8 @@ button.ui.button.EditStep_deleteButton__a03v5:hover,
 #app .GeneralPane_actionButton__QZx1A:hover,
 #app .BackgroundPane_actionButton__H5sjC:hover,
 #app .AvatarEditStep_actionButton__TsBby:hover,
-#app .UserItem_menuItemText__EuvLW:hover {
+#app .UserItem_menuItemText__EuvLW:hover,
+#app .CardModal_headerTitle__uDXT2 {
     color: #ffffffb8
 }
 
